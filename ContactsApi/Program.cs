@@ -1,4 +1,4 @@
-using DomainServiceLayer;
+using DomainServiceLayer.Services;
 using DomainServiceLayer.Interfaces;
 using InfrastructureLayer.Context;
 using InfrastructureLayer.Repositories;
@@ -21,7 +21,6 @@ builder.Services.AddTransient<IContactsService, ContactsService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

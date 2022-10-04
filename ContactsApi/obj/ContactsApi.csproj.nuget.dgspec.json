@@ -25,7 +25,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/marco/Documentos/myprojects/contactssystem/DomainServiceLayer/DomainServiceLayer.csproj": {
+                "projectPath": "/home/marco/Documentos/myprojects/contactssystem/DomainServiceLayer/DomainServiceLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -38,7 +42,35 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MiniValidation": {
+              "target": "Package",
+              "version": "[0.6.0-pre.20220527.55, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[6.2.3, )"
             }
@@ -58,6 +90,182 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/marco/Documentos/myprojects/contactssystem/DomainLayer/DomainLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marco/Documentos/myprojects/contactssystem/DomainLayer/DomainLayer.csproj",
+        "projectName": "DomainLayer",
+        "projectPath": "/home/marco/Documentos/myprojects/contactssystem/DomainLayer/DomainLayer.csproj",
+        "packagesPath": "/home/marco/.nuget/packages/",
+        "outputPath": "/home/marco/Documentos/myprojects/contactssystem/DomainLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/marco/Documentos/myprojects/contactssystem/DomainServiceLayer/DomainServiceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marco/Documentos/myprojects/contactssystem/DomainServiceLayer/DomainServiceLayer.csproj",
+        "projectName": "DomainServiceLayer",
+        "projectPath": "/home/marco/Documentos/myprojects/contactssystem/DomainServiceLayer/DomainServiceLayer.csproj",
+        "packagesPath": "/home/marco/.nuget/packages/",
+        "outputPath": "/home/marco/Documentos/myprojects/contactssystem/DomainServiceLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/marco/Documentos/myprojects/contactssystem/DomainLayer/DomainLayer.csproj": {
+                "projectPath": "/home/marco/Documentos/myprojects/contactssystem/DomainLayer/DomainLayer.csproj"
+              },
+              "/home/marco/Documentos/myprojects/contactssystem/InfraStructureLayer/InfraStructureLayer.csproj": {
+                "projectPath": "/home/marco/Documentos/myprojects/contactssystem/InfraStructureLayer/InfraStructureLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/marco/Documentos/myprojects/contactssystem/InfraStructureLayer/InfraStructureLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marco/Documentos/myprojects/contactssystem/InfraStructureLayer/InfraStructureLayer.csproj",
+        "projectName": "InfraStructureLayer",
+        "projectPath": "/home/marco/Documentos/myprojects/contactssystem/InfraStructureLayer/InfraStructureLayer.csproj",
+        "packagesPath": "/home/marco/.nuget/packages/",
+        "outputPath": "/home/marco/Documentos/myprojects/contactssystem/InfraStructureLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/marco/Documentos/myprojects/contactssystem/DomainLayer/DomainLayer.csproj": {
+                "projectPath": "/home/marco/Documentos/myprojects/contactssystem/DomainLayer/DomainLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
